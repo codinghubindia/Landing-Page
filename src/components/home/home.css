@@ -1,0 +1,102 @@
+.home {
+    width: calc(100vw - scrollbar-width);
+    height:897.35;
+}
+
+.heroSection {
+    height:416.95px;
+    background:#F5F7FA;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.frame {
+    width:457.32px;
+    height:192.9px;
+}
+
+.illustration img {
+    width: 272.16px;
+    height: 283.3px;
+}
+
+.text h1 {
+    font-size:44.55px;
+    color: #4D4D4D;
+}
+
+.text-decor {
+    color:#4CAF4F;
+}
+
+.text p {
+    font-size: 11.4px;
+}
+
+.button button {
+    width:89.55px;
+    height:36.49px;
+    color: white;
+    background:#4CAF4F;
+    border:none;
+    border-radius:0.5rem;
+    margin-top:1rem;
+}
+
+.dot {
+    background:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.dot img {
+    width:32px;
+    height:6.96px;
+    position:relative;
+    top:-2rem;
+}
+
+/* Clinet Section Design */
+
+.clients {
+    height:132.92px;
+}
+
+.client {
+    text-align:center;
+    margin:none;
+}
+
+.client h1 {
+    font-size:30px;
+    font-weight:25px;
+    color:#585858;
+    height:31px;
+}
+
+.client p {
+    font-size:11.14px;
+    color:#585858;
+    height:17px;
+}
+
+.logoAlign {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.clientLogo {
+    width:900px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:2rem;
+}
+
+.clientLogo img {
+    width:34px;
+    height:34px;
+}

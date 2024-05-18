@@ -1,0 +1,44 @@
+header {
+    display:flex;
+    /* width:1002px; */
+    height:58.76px;
+    width: calc(100vw - scrollbar-width);
+    justify-content:space-around;
+    align-items:center;
+    padding:20px;
+}
+
+
+.logo img {
+    width:107.54PX;
+    height:16.71px;
+}
+
+.RightMenu {
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    width:650px;
+    height:36.49px;
+}
+
+.navigationLinks, .register {
+    align-items:center;
+    text-align:center;
+}
+
+.navigationLinks a {
+    text-decoration:none;
+    padding:1rem;
+    color:black;
+}
+
+.register button {
+    background:#4CAF4F;
+    height:100%;
+    color:white;
+    outline:none;
+    padding:0.5rem;
+    border:none;
+    width:133px;
+}
