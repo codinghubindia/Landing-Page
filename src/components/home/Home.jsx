@@ -1,8 +1,8 @@
 import React from 'react';
 import illustration from '../../images/illustration.png';
-import {dot, logo1, logo2, logo3, logo4, logo5, logo6, logo7} from './imem'
+import {dot, logo1, logo2, logo3, logo4, logo5, logo6, logo7} from '../imex'
 import './home.css';
-import { icon1, icon2, icon3 } from './imem';
+import { icon1, icon2, icon3 } from '../imex';
 
 const Home = () => {
   return (
@@ -68,7 +68,7 @@ const Home = () => {
           <div className="card">
           <div className="member">
               <img src={icon3} alt="" />
-              <h1>Clubs and Groups</h1>
+              <h1>Clubs and<br /> Groups</h1>
             </div>
             <div className="text">
               <p>Our membership management software provides full automation of memberhip renewals and payments</p>

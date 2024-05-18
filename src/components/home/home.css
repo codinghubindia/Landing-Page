@@ -100,3 +100,51 @@
     width:34px;
     height:34px;
 }
+
+/* styling community section */
+
+.communityText {
+    text-align:center;
+    margin-top:3.5rem;
+}
+
+.communityText h2 {
+    color:#4D4D4D;
+    font-size:26px;
+}
+
+.communityText p {
+    color:#4D4D4D;
+    font-size:11px;
+}
+
+.communityCard {
+    display:flex;
+    margin-top:2rem;
+    justify-content: space-around;
+    margin:0 20vw;
+}
+
+.card {
+    margin-top:2rem;
+    width:200px;
+    height:182.1px;
+    display:block;
+    text-align:center;
+    align-items:center;
+    box-shadow:0px 1px 2px #ABBED1;
+    border-radius:1rem;
+    overflow:hidden;
+    padding:0 0.5rem 2rem;
+}
+
+.member img {
+    width:45.28px;
+    height:39px;
+    padding-top:2vh;
+}
+
+.member h1 {
+    color:#4D4D4D;
+    font-size:20px;
+}
