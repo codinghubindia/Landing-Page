@@ -11,10 +11,10 @@ const Body = () => {
         </div>
         <div className="unlockContent">
           <div className="unlockDesciption">
-            <h3>The Unseen of spending three years at Pixelgrade</h3>
+            <h3>The Unseen of spending three<br/>years at Pixelgrade</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa eum error earum nesciunt iste aperiam est animi impedit, aut deserunt quisquam quasi ipsam distinctio. Fuga sit aperiam iusto totam, possimus quam voluptas numquam beatae adipisci ab ducimus officia voluptatem repudiandae architecto animi dolorem vero! Sint maiores nulla odio commodi, recusandae vero. Natus quae fugiat itaque enim molestiae laboriosam consequuntur labore?</p>
           </div>
-          <div className="btn">
+          <div className="unlockBtn">
             <button>Learn More</button>
           </div>
         </div>
@@ -25,28 +25,28 @@ const Body = () => {
           <p>We reached here with Our hard work and dedicaiton</p>
         </div>
         <div className="counts">
-          <div className="row1">
-            <div className="1">
+          <div className="row">
+            <div className="r1">
               <div className="Icon">
                 <img src={ricon1} alt="" />
               </div>
               <div className="details"><h3>2,245,341</h3></div>
             </div>
-            <div className="2">
+            <div className="r2">
               <div className="Icon">
                 <img src={ricon2} alt="" srcset="" />
               </div>
               <div className="details"><h3>46,328</h3></div>
             </div>
           </div>
-          <div className="row2">
-          <div className="1">
+          <div className="row">
+          <div className="r1">
               <div className="Icon">
                 <img src={ricon3} alt="" />
               </div>
               <div className="details"><h3>828,867</h3></div>
             </div>
-            <div className="2">
+            <div className="r2">
               <div className="Icon">
                 <img src={ricon4} alt="" />
               </div>
@@ -57,7 +57,7 @@ const Body = () => {
       </div>
       <div className="calender">
         <div className="lock">
-          <img src="" alt="" />
+          <img src={unlock} alt="" />
         </div>
         <div className="lockContent">
           <div className="lockDescription">

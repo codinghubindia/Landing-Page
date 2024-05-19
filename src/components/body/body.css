@@ -1,0 +1,101 @@
+.unlock {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:302px;
+    margin:0.5rem 0;
+}
+
+.unlockImg, .unlockContent {
+    padding:2rem;
+}
+
+.unlockImg img {
+    width:308px;
+    height:350px;
+    position:relative;
+    top:3rem;
+}
+
+
+.unlockContent {
+    width: 460px;
+    height: 189px;
+}
+
+.unlockDesciption h3 {
+    font-size:25.06px;
+    color:#4D4D4D;
+}
+
+
+.unlockDesciption p {
+    font-size:9.74px;
+    color:#4D4D4D;
+}
+
+
+.unlockBtn button {
+    width:105px;
+    height:37px;
+    margin-top:1rem;
+    background:#4CAF4F;
+    color:#FFF;
+    border:none;
+    border-radius:0.2rem;
+}
+
+/* Style for Achievement Section */
+
+.achievements {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: #F5F7FA;
+    height:202.94px;
+    margin-top:3rem;
+}
+
+.row {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.row img {
+    width:34px;
+    height:34px;
+}
+
+.row h3 {
+    font-size:16px;
+    color:#4D4D4D;
+}
+
+.r1, .r2 {
+    width:178px;
+    height:43px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.r1 .details,.r2 .details {
+    padding-left:1rem;
+}
+
+.sectionHeading {
+    font-weight:20px;
+    font-size: 25px;
+    color:#4D4D4D;
+    padding:0 6rem 0 0;
+}
+
+.sectionHeading span {
+    color: #4CAF4F;
+}
+
+.sectionHeading p {
+    font-size:12px;
+    margin-top:-1.5rem;
+}
