@@ -1,0 +1,21 @@
+/* Designing Footer */
+
+.footerFrame1 {
+    background: #F5F7FA;
+    min-height:210px;
+    text-align:center;
+    padding:4rem 0;
+}
+
+.footerFrame1 h1 {
+    font-size:46px;
+}
+
+.footerFrame1 button {
+    width:125px;
+    height:37px;
+    border:none;
+    border-radius:0.5rem;
+    background: #4CAF4F;
+    color: #fff;
+}

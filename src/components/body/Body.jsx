@@ -61,7 +61,7 @@ const Body = () => {
         </div>
         <div className="lockContent">
           <div className="lockDescription">
-            <h2>How to design your site footer like we did</h2>
+            <h2>How to design your site footer like<br/>we did</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, est debitis cupiditate architecto non earum consequatur harum expedita molestias optio dolor beatae temporibus quidem. Optio natus vel iusto modi? Eius!
             Labore deleniti nobis sint vitae ullam, fuga eos quisquam soluta delectus rem, natus modi dolores sequi error optio! At illo iusto voluptatum amet deleniti minus impedit distinctio! Ipsa, possimus alias.</p>
           </div>
@@ -82,40 +82,40 @@ const Body = () => {
             <p>British Dragon Boat Racing Association</p>
           </div>
           <div className="customerLogo">
-            <img src={logo1} alt="" />
-            <img src={logo2} alt="" />
-            <img src={logo3} alt="" />
-            <img src={logo4} alt="" />
-            <img src={logo5} alt="" />
-            <img src={logo6} alt="" />
+            <img src={logo1} alt="logo" />
+            <img src={logo2} alt="logo" />
+            <img src={logo3} alt="logo" />
+            <img src={logo4} alt="logo" />
+            <img src={logo5} alt="logo" />
+            <img src={logo6} alt="logo" />
             <a href="#allCustomers">Meet all customers</a>
           </div>
         </div>
       </div>
       <div className="communityUpdate">
         <div className="communitybdy">
-          <h3>Caring is the new Marketing</h3>
+          <h3>Caring is the new marketing</h3>
           <p>The Nextcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
         </div>
         <div className="ctyframe">
-          <div className="f1">
+          <div className="f">
             <div className="img"><img src={c1} alt="" /></div>
-            <div className="content">
+            <div className="contentcard">
               <p>Creating Streamlined Safegurding Processes with Oneren</p>
               <a href="#readMore">Read More</a>
             </div>
           </div>
-          <div className="f2">
+          <div className="f">
           <div className="img"><img src={c2} alt="" /></div>
-            <div className="content">
-              <p></p>
+            <div className="contentcard">
+              <p>What are your safeguarding responsibilities and how can you manage them?</p>
               <a href="#readMore">Read More</a>
             </div>
           </div>
-          <div className="f3">
+          <div className="f">
           <div className="img"><img src={c3} alt="" /></div>
-            <div className="content">
-              <p></p>
+            <div className="contentcard">
+              <p>Revamping the Membership Model with the Triathlon  Australia </p>
               <a href="#readMore">Read More</a>
             </div>
           </div>

@@ -99,3 +99,150 @@
     font-size:12px;
     margin-top:-1.5rem;
 }
+
+/* Desingning Calender Section */
+
+.calender {
+    display:flex;
+    margin:none;
+    padding:none;
+    justify-content:center;
+    align-items:center;
+    padding: 0 10rem;
+    min-height:301.68px;
+}
+
+.lock img {
+    width: 304px;
+    height: 307px;
+}
+
+.lock {
+    margin-right:2rem;
+}
+
+.lockContent {
+    padding-left:3rem;
+    height: 220px;
+    width:460px;
+    overflow:auto;
+}
+
+.lockDescription h2 {
+    color:#4D4D4D;
+    font-size:25.06px;
+}
+
+.lockDescription p {
+    color:#4D4D4D;
+    font-size:10px;
+}
+
+.lockbtn button {
+    background: #4CAF4F;
+    width: 105.55px;
+    height:35px;
+    border:none;
+    border-radius:0.5rem;
+    color:#fff;
+}
+
+/* Designing Customer's Section */
+
+.customers {
+    background: #F5F7FA;
+    margin:2rem 0;
+    min-height:271.47px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 0 22vw
+}
+
+.customerImg img {
+    width:227px;
+    height:227px;
+}
+
+.customerImg {
+    margin-right:5rem;
+}
+
+.customerDescription p {
+    color:#4D4D4D;
+    font-size:9.74px;
+}
+
+.customerDescription h5 {
+    color:#4CAF4F;
+    font-size:18px;
+}
+
+.customerLogo {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.customerLogo img {
+    width:34px;
+    height:34px;
+}
+
+.customerLogo a {
+    text-decoration:none;
+    color:#4CAF4F;
+    font-size:14px;
+}
+
+/* Designing Community Update part */
+
+.communityUpdate {
+    min-height: 354.51px;
+}
+
+.communitybdy {
+    text-align:center;
+    margin:0 35vw;
+    color:#4D4D4D;
+}
+
+.communitybdy h3 {
+    font-size:26px;
+}
+.communitybdy p {
+    font-size:11px;
+}
+
+.ctyframe {
+    margin-top: 2rem;
+    display : flex;
+    justify-content:center;
+}
+
+.ctyframe img {
+    width:257px;
+    height:200px;
+}
+
+.contentcard {
+    width:220.65px;
+    min-height:123.55px;
+    background:#F5F7FA;
+    border-radius:0.5rem;
+    padding:0.1rem;
+    margin:auto;
+    position:relative;
+    top:-8vh;
+    box-shadow:0px 3px 6px #E4EBF1;
+    text-align:center;
+}
+
+.f {
+    margin: 0 2vw;
+}
+
+.contentcard a {
+    text-decoration:none;
+    color:#4CAF4F;
+}
