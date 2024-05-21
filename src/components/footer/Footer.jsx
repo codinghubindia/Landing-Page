@@ -1,4 +1,4 @@
-import { headerLogo, sicon1, sicon2, sicon3, sicon4, sendimg } from '../imex';
+import { footerLogo, sicon1, sicon2, sicon3, sicon4, sendimg } from '../imex';
 import './footer.css';
 
 const Footer = () => {
@@ -11,7 +11,7 @@ const Footer = () => {
         </div>
         <div className="footerFrame2">
           <div className="ff1">
-            <img src={headerLogo} alt="Company Logo" />
+            <img src={footerLogo} alt="Company Logo" />
             <p>Copyright © 2020 Landify UI Kit.</p>
             <p>All rights reserved</p>
             <div className="sicon">
@@ -40,8 +40,10 @@ const Footer = () => {
             </div>
             <div className="sud">
               <h1>Stay up to date</h1>
-              <input type="email" placeholder='Your email address' />
-              <button><img src={sendimg} alt="" /></button>
+              <div className="rbtn">
+                <input type="email" placeholder='Your email address' />
+                <button><img src={sendimg} alt="" /></button>
+              </div>
             </div>
           </div>
         </div>

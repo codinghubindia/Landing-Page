@@ -19,3 +19,74 @@
     background: #4CAF4F;
     color: #fff;
 }
+
+.footerFrame2 {
+    background:#263238;
+    color: #fff;
+    display:flex;
+    justify-content:space-around;
+    padding:5rem;
+}
+
+.ff1 img {
+    width:135px;
+    height:21px;
+    margin-bottom:2rem;
+}
+
+.ff1 p {
+    font-size: 9.74px;
+}
+
+.sicon {
+    width:122px;
+    display:flex;
+    justify-content:space-between;
+    margin-top:3rem;
+}
+
+.sicon img {
+    width:22px;
+    height:22px;
+}
+
+.ff2 {
+    display:flex;
+    justify-content:space-between;
+}
+
+.cpy, .spt, .sud {
+    margin:0 2rem;
+}
+
+.cpy h1, .spt h1, .sud h1 {
+    font-size:14px;
+}
+
+.cpy h5, .spt h5, .sud h5 {
+    font-size: 9.74px;
+}
+
+.sud input {
+    width:170px;
+    border-radius:0.5rem 0 0 0.5rem;
+    outline:none;
+    color:white;
+}
+
+.sud input, .sud button {
+    height: 28px;
+    border:none;
+    background: #515B60;
+}
+
+.sud button {
+    border-radius: 0 0.5rem 0.5rem 0;
+    height:30px;
+}
+
+.rbtn {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}

@@ -21,7 +21,7 @@ import tesla from '../images/body/tesla.png';
 import c1 from '../images/body/c1.png';
 import c2 from '../images/body/c2.png';
 import c3 from '../images/body/c3.png';
-import headerLogo from '../images/headerLogo.png';
+import footerLogo from '../images/footer/footerLogo.png';
 import sicon1 from '../images/footer/sicon1.png';
 import sicon2 from '../images/footer/sicon2.png';
 import sicon3 from '../images/footer/sicon3.png';
@@ -30,4 +30,4 @@ import sendimg from '../images/footer/sendimg.png';
 
 export {dot, logo1, logo2, logo3, logo4, logo5, logo6, logo7, icon1, icon2, icon3};
 export { unlock, ricon1, ricon2, ricon3, ricon4, tesla, c1, c2, c3 };
-export { headerLogo, sicon1, sicon2, sicon3, sicon4, sendimg };
+export { footerLogo, sicon1, sicon2, sicon3, sicon4, sendimg };
