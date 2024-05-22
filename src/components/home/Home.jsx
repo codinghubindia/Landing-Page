@@ -1,6 +1,6 @@
 import React from 'react';
 import illustration from '../../images/illustration.png';
-import {dot, logo1, logo2, logo3, logo4, logo5, logo6, logo7} from '../imex'
+import { dot, logo1, logo2, logo3, logo4, logo5, logo6, logo7 } from '../imex';
 import './home.css';
 import { icon1, icon2, icon3 } from '../imex';
 
@@ -22,22 +22,22 @@ const Home = () => {
         </div>
       </div>
       <div className="dot">
-        <img src={dot} alt="" />
+        <img src={dot} alt="Dot decoration" />
       </div>
       <div className="clients">
         <div className="client">
           <h1>Our Clients</h1>
-          <p>We have been working with some Fortune 500+ clients</p>
+          <p className='herotext'>We have been working with some Fortune 500+ clients</p>
         </div>
         <div className="logoAlign">
           <div className="clientLogo">
-            <img src={logo1} alt="logo" />
-            <img src={logo2} alt="logo" />
-            <img src={logo3} alt="logo" />
-            <img src={logo4} alt="logo" />
-            <img src={logo5} alt="logo" />
-            <img src={logo6} alt="logo" />
-            <img src={logo7} alt="logo" />
+            <img src={logo1} alt="Client logo" />
+            <img src={logo2} alt="Client logo" />
+            <img src={logo3} alt="Client logo" />
+            <img src={logo4} alt="Client logo" />
+            <img src={logo5} alt="Client logo" />
+            <img src={logo6} alt="Client logo" />
+            <img src={logo7} alt="Client logo" />
           </div>
         </div>
       </div>
@@ -49,7 +49,7 @@ const Home = () => {
         <div className="communityCard">
           <div className="card">
             <div className="member">
-              <img src={icon1} alt="" />
+              <img src={icon1} alt="Membership Organisations" />
               <h1>Membership Organisations</h1>
             </div>
             <div className="text">
@@ -57,8 +57,8 @@ const Home = () => {
             </div>
           </div>
           <div className="card">
-          <div className="member">
-              <img src={icon2} alt="" />
+            <div className="member">
+              <img src={icon2} alt="National Associations" />
               <h1>National Associations</h1>
             </div>
             <div className="text">
@@ -66,8 +66,8 @@ const Home = () => {
             </div>
           </div>
           <div className="card">
-          <div className="member">
-              <img src={icon3} alt="" />
+            <div className="member">
+              <img src={icon3} alt="Clubs and Groups" />
               <h1>Clubs and<br /> Groups</h1>
             </div>
             <div className="text">
@@ -80,4 +80,4 @@ const Home = () => {
   );
 }
 
-export default Home
+export default Home;

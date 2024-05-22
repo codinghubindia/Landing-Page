@@ -1,44 +1,146 @@
+/* header.css */
+
 header {
-    display:flex;
-    /* width:1002px; */
-    height:58.76px;
-    width: calc(100vw - scrollbar-width);
-    justify-content:space-around;
-    align-items:center;
-    padding:20px;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem ;
+    margin:0 0 1rem 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-
 .logo img {
-    width:107.54PX;
-    height:16.71px;
+    width: 180px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
 }
 
 .RightMenu {
-    display:flex;
-    justify-content:flex-end;
-    align-items:center;
-    width:650px;
-    height:36.49px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .navigationLinks, .register {
-    align-items:center;
-    text-align:center;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 .navigationLinks a {
-    text-decoration:none;
-    padding:1rem;
-    color:black;
+    text-decoration: none;
+    margin-right: 2.5rem; /* Added margin between links */
+    color: rgb(77,77,77);
+    font-size: 1.6rem;
+    opacity:0.9;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.navigationLinks a:hover {
+    color: #4CAF4F;
+    transform: scale(1.1);
 }
 
 .register button {
-    background:#4CAF4F;
-    height:100%;
-    color:white;
-    outline:none;
-    padding:0.5rem;
-    border:none;
-    width:133px;
+    background: #4CAF4F;
+    color: white;
+    outline: none;
+    padding: 1rem 1.5rem; /* Added padding */
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+    font-size: 1.2rem;
+}
+
+.register button:hover {
+    background: #45a049;
+    transform: scale(1.1);
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+@media (max-width: 800px) {
+    .RightMenu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+        transition: transform 0.3s ease-in-out;
+        transform: translateY(-100%);
+    }
+
+    .RightMenu.open {
+        display: flex;
+        transform: translateY(0);
+    }
+
+    .navigationLinks {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navigationLinks a {
+        padding: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .register {
+        width: 100%;
+        justify-content: center;
+        margin: 1.5rem;
+
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .hamburger.open div:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 5px);
+    }
+
+    .hamburger.open div:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.open div:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -5px);
+    }
+}
+
+@media (max-width: 480px) {
+    .navigationLinks a {
+        font-size: 1rem;
+    }
+
+    .register button {
+        width: 100%;
+        font-size: 1rem;
+    }
 }

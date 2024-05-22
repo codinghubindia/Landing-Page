@@ -1,27 +1,38 @@
-import React from 'react';
+import React, { useState } from 'react';
 import headerLogo from '../../images/headerLogo.png';
-import './header.css'
+import './header.css';
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <header>
-        <div className='logo'>
-            <img src={headerLogo} alt="logo" />
+      <div className='logo'>
+        <img src={headerLogo} alt="logo" />
+      </div>
+      <div className={`RightMenu ${menuOpen ? 'open' : ''}`}>
+        <div className="navigationLinks">
+          <a href="#home">Home</a>
+          <a href="#features">Features</a>
+          <a href="#community">Community</a>
+          <a href="#blog">Blog</a>
+          <a href="#pricing">Pricing</a>
         </div>
-        <div className='RightMenu'>
-                <div className="navigationLinks">
-                <a href="#home">Home</a>
-                <a href="#home">Features</a>
-                <a href="#home">Community</a>
-                <a href="#home">Blog</a>
-                <a href="#home">Pricing</a>
-            </div>
-            <div className="register">
-                <button>Register Now </button>
-            </div>
+        <div className="register">
+          <button>Register Now</button>
         </div>
+      </div>
+      <div className={`hamburger ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;

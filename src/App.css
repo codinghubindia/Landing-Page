@@ -2,6 +2,18 @@
     margin:0;
     box-sizing: border-box;
     padding:0;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6,a,p {
+    opacity:0.9;
+}
+
+p {
+    font-weight: 200;
+    color: rgba(77,77,77,0.6);
 }
 
 body {

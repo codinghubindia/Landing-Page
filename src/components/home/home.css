@@ -1,150 +1,221 @@
+/* home.css */
+
 .home {
-    width: calc(100vw - scrollbar-width);
-    height:897.35;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 0 1rem;
+    box-sizing: border-box;
 }
 
 .heroSection {
-    height:416.95px;
-    background:#F5F7FA;
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
+    height: auto;
+    background: #F5F7FA;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
 }
 
 .frame {
-    width:457.32px;
-    height:192.9px;
+    width: 45%;
+    min-width: 300px;
+    text-align: left;
+    animation: fadeInLeft 1s ease-in-out;
 }
 
 .illustration img {
-    width: 272.16px;
-    height: 283.3px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    animation: fadeInRight 1s ease-in-out;
 }
 
 .text h1 {
-    font-size:44.55px;
+    font-size: 3.5rem;
     color: #4D4D4D;
 }
 
 .text-decor {
-    color:#4CAF4F;
+    color: #4CAF4F;
 }
 
-.text p {
-    font-size: 11.4px;
+.herotext p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
 }
 
 .button button {
-    width:89.55px;
-    height:36.49px;
+    width: 120px;
+    height: 40px;
     color: white;
-    background:#4CAF4F;
-    border:none;
-    border-radius:0.5rem;
-    margin-top:1rem;
+    background: #4CAF4F;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.button button:hover {
+    transform: scale(1.05);
+    background: #45a049;
 }
 
 .dot {
-    background:none;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
 }
 
 .dot img {
-    width:32px;
-    height:6.96px;
+    width: 32px;
+    height: 6.96px;
     position:relative;
-    top:-2rem;
+    top:-2.5rem;
 }
-
-/* Clinet Section Design */
 
 .clients {
-    height:132.92px;
-}
-
-.client {
-    text-align:center;
-    margin:none;
+    text-align: center;
+    padding: 2rem 0;
 }
 
 .client h1 {
-    font-size:30px;
-    font-weight:25px;
-    color:#585858;
-    height:31px;
+    font-size: 3rem;
+    color: #585858;
+    margin-bottom: 0.5rem;
 }
 
 .client p {
-    font-size:11.14px;
-    color:#585858;
-    height:17px;
-}
-
-.logoAlign {
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    font-size: 1.5rem;
+    color: #585858;
+    margin-bottom: 2rem;
 }
 
 .clientLogo {
-    width:900px;
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
-    margin-top:2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
 
 .clientLogo img {
-    width:34px;
-    height:34px;
+    width: 3rem;
+    height: auto;
+    transition: transform 0.3s;
 }
 
-/* styling community section */
+.clientLogo img:hover {
+    transform: scale(1.5);
+}
+
+.community {
+    text-align: center;
+    padding: 2rem 0;
+}
 
 .communityText {
-    text-align:center;
-    margin-top:3.5rem;
+    margin-bottom: 2rem;
 }
 
 .communityText h2 {
-    color:#4D4D4D;
-    font-size:26px;
+    color: #4D4D4D;
+    font-size: 1.75rem;
 }
 
 .communityText p {
-    color:#4D4D4D;
-    font-size:11px;
+    color: #4D4D4D;
+    font-size: 1rem;
+    margin-top: 0.5rem;
 }
 
 .communityCard {
-    display:flex;
-    margin-top:2rem;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    margin:0 20vw;
+    gap: 2rem;
 }
 
 .card {
-    margin-top:2rem;
-    width:200px;
-    height:182.1px;
-    display:block;
-    text-align:center;
-    align-items:center;
-    box-shadow:0px 1px 2px #ABBED1;
-    border-radius:1rem;
-    overflow:hidden;
-    padding:0 0.5rem 2rem;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0px 1px 2px #ABBED1;
+    border-radius: 1rem;
+    overflow: hidden;
+    padding: 1rem;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
 
 .member img {
-    width:45.28px;
-    height:39px;
-    padding-top:2vh;
+    width: 45px;
+    height: auto;
 }
 
 .member h1 {
-    color:#4D4D4D;
-    font-size:20px;
+    color: #4D4D4D;
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+}
+
+.text p {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .heroSection {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .frame {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+
+    .illustration img {
+        max-width: 200px;
+    }
+
+    .communityCard {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
