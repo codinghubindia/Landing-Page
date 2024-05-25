@@ -8,13 +8,16 @@
 }
 
 .footerFrame1 h1 {
-    font-size:46px;
+    font-size:2.5rem;
+    opacity: 0.6;
 }
 
 .footerFrame1 button {
-    width:125px;
-    height:37px;
+    width:10rem;
+    height:3rem;
+    font-size:1rem;
     border:none;
+    margin-top:1rem;
     border-radius:0.5rem;
     background: #4CAF4F;
     color: #fff;
@@ -29,25 +32,27 @@
 }
 
 .ff1 img {
-    width:135px;
-    height:21px;
+    width:15    rem;
+    height:auto;
     margin-bottom:2rem;
 }
 
 .ff1 p {
-    font-size: 9.74px;
+    font-size: 1.5rem;
+    color: #fff;
+    opacity: 0.35;
 }
 
 .sicon {
-    width:122px;
+    width:15rem;
     display:flex;
     justify-content:space-between;
     margin-top:3rem;
 }
 
 .sicon img {
-    width:22px;
-    height:22px;
+    width: 2.5rem;
+    height:auto;
 }
 
 .ff2 {
@@ -60,11 +65,16 @@
 }
 
 .cpy h1, .spt h1, .sud h1 {
-    font-size:14px;
+    font-size:1.5rem;
+    opacity: 0.75;
+    margin-bottom: 1.5rem;
 }
 
 .cpy h5, .spt h5, .sud h5 {
-    font-size: 9.74px;
+    font-size: 1rem;
+    margin: 0.85rem;
+    opacity: 0.55;
+    text-align: left;
 }
 
 .sud input {
@@ -75,14 +85,21 @@
 }
 
 .sud input, .sud button {
-    height: 28px;
+    height: 3rem;
     border:none;
     background: #515B60;
+    opacity: 0.45;
+}
+
+.rbtn input::placeholder,
+.rbtn input[type=email] {
+    color: #fff;
+    padding: 1rem;
 }
 
 .sud button {
     border-radius: 0 0.5rem 0.5rem 0;
-    height:30px;
+    width: 3rem;
 }
 
 .rbtn {

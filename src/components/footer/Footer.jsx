@@ -41,8 +41,8 @@ const Footer = () => {
             <div className="sud">
               <h1>Stay up to date</h1>
               <div className="rbtn">
-                <input type="email" placeholder='Your email address' />
-                <button><img src={sendimg} alt="" /></button>
+                <input type="email" placeholder="Your email address" />
+                <button><img src={sendimg} alt="Send" /></button>
               </div>
             </div>
           </div>
