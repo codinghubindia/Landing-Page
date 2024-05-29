@@ -27,6 +27,7 @@
     background:#263238;
     color: #fff;
     display:flex;
+    flex-wrap:wrap;
     justify-content:space-around;
     padding:5rem;
 }
@@ -57,11 +58,12 @@
 
 .ff2 {
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
+    gap:2rem;
+    flex-wrap: wrap;
 }
 
 .cpy, .spt, .sud {
-    margin:0 2rem;
 }
 
 .cpy h1, .spt h1, .sud h1 {
@@ -72,7 +74,7 @@
 
 .cpy h5, .spt h5, .sud h5 {
     font-size: 1rem;
-    margin: 0.85rem;
+    margin: 0.85rem 0;
     opacity: 0.55;
     text-align: left;
 }
