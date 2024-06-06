@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/learning-react/static/css/main.cd95e325.css",
-    "main.js": "/learning-react/static/js/main.c945d371.js",
-    "static/js/453.14b6b8d9.chunk.js": "/learning-react/static/js/453.14b6b8d9.chunk.js",
-    "static/media/c1.png": "/learning-react/static/media/c1.898a945ebdc0ad3d9dd4.png",
-    "static/media/c2.png": "/learning-react/static/media/c2.b7ef545537f33db4ebf5.png",
-    "static/media/c3.png": "/learning-react/static/media/c3.49c8c38b0ca50c433e51.png",
-    "static/media/tesla.png": "/learning-react/static/media/tesla.8fedad2367cefb2b2fb5.png",
-    "static/media/illustration.png": "/learning-react/static/media/illustration.aa242d435c53930e1e81.png",
-    "static/media/unlock.png": "/learning-react/static/media/unlock.5ce021b3c52a4094bdbf.png",
-    "index.html": "/learning-react/index.html",
-    "main.cd95e325.css.map": "/learning-react/static/css/main.cd95e325.css.map",
-    "main.c945d371.js.map": "/learning-react/static/js/main.c945d371.js.map",
-    "453.14b6b8d9.chunk.js.map": "/learning-react/static/js/453.14b6b8d9.chunk.js.map"
+    "main.css": "/Landing-Page/static/css/main.cd95e325.css",
+    "main.js": "/Landing-Page/static/js/main.6f572aa6.js",
+    "static/js/453.14b6b8d9.chunk.js": "/Landing-Page/static/js/453.14b6b8d9.chunk.js",
+    "static/media/c1.png": "/Landing-Page/static/media/c1.898a945ebdc0ad3d9dd4.png",
+    "static/media/c2.png": "/Landing-Page/static/media/c2.b7ef545537f33db4ebf5.png",
+    "static/media/c3.png": "/Landing-Page/static/media/c3.49c8c38b0ca50c433e51.png",
+    "static/media/tesla.png": "/Landing-Page/static/media/tesla.8fedad2367cefb2b2fb5.png",
+    "static/media/illustration.png": "/Landing-Page/static/media/illustration.aa242d435c53930e1e81.png",
+    "static/media/unlock.png": "/Landing-Page/static/media/unlock.5ce021b3c52a4094bdbf.png",
+    "index.html": "/Landing-Page/index.html",
+    "main.cd95e325.css.map": "/Landing-Page/static/css/main.cd95e325.css.map",
+    "main.6f572aa6.js.map": "/Landing-Page/static/js/main.6f572aa6.js.map",
+    "453.14b6b8d9.chunk.js.map": "/Landing-Page/static/js/453.14b6b8d9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd95e325.css",
-    "static/js/main.c945d371.js"
+    "static/js/main.6f572aa6.js"
   ]
 }
