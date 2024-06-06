@@ -60,21 +60,21 @@ After setting up the project locally, you can access the landing page by navigat
 
 The project structure is organized as follows:
 
-landing-page/
-├── public/
-│ ├── index.html
-│ └── manifest.json
-├── src/
-│ ├── assets/
-│ │ └── images/
-│ ├── components/
-│ ├── App.js
-│ ├── index.js
-│ └── styles/
-│ └── main.css
-├── .gitignore
-├── package.json
-└── README.md
+landing-page/<br />
+├── public/<br />
+│ ├── index.html<br />
+│ └── manifest.json<br />
+├── src/<br />
+│ ├── assets/<br />
+│ │ └── images/<br />
+│ ├── components/<br />
+│ ├── App.js<br />
+│ ├── index.js<br />
+│ └── styles/<br />
+│ └── main.css<br />
+├── .gitignore<br />
+├── package.json<br />
+└── README.md<br />
 
 
 - **public/**: Contains the HTML file and static assets.
